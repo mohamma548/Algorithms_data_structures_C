@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "time.h"
+typedef struct
+{
+        Tleg leg1;
+        Tleg leg2;
+        Tleg leg3;
+        }
+void read_rally(Trally *ral);
+void display_leg_times(Trally rall);
+int main(void)
+{
+  Trally rally;
+  read_rally(&rally);
+  display_leg_times(&rally);
+  system("PAUSE");	
+  return 0;
+}
+
+void read_rally(Trally *ral)
+{
+     read_tim
+     }
+void display_leg_times(Trally rall);

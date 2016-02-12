@@ -1,0 +1,18 @@
+Data abstraction and procedure abstraction
+Write a program, that first reads the starting time (hours and minutes) of a
+certain process and then the ending time of the same process
+
+sub tasks
+1) read time
+2) check whether of the given time is earlier (extra feature, not mandatory)
+3) calculate time difference
+4) display the time.
+
+Extra additional feature
+To make time more generic and better reusable in possible other projects write an
+additional function compare_times that uses the same concept than standard C string
+comparison function compare in the sense that the function returns -1, if time1 is
+earlier than time2. The function returns 0 if times are equal and it return 1 if time1 is
+later than time2.
+
+
